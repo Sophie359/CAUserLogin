@@ -65,6 +65,11 @@ public class DBUserDataAccessObject implements SignupUserDataAccessInterface,
         }
     }
 
+    @Override
+    public void setCurrentUser(String name) {
+
+    }
+
     /**
      * Method existsByName takes in a username, and check if it is already in the remote API.
      * @param username provide a username
